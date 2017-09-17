@@ -1,0 +1,319 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#jumbo header {
+	text-align: right;
+	padding-top: 50px;
+	padding-right: 20px;
+}
+.jumbotron {
+	background-color: #02709D;
+	height: 100%;
+	padding-bottom: 0;
+	margin-bottom: 0;
+	
+}
+
+#jumbo {
+	background-color: #02709D; /*mainblue*/
+	border: 5px solid white;
+	border-color: white;
+
+}
+#jumbo h1 {
+	color: white;
+	padding-right: 78px;
+	padding-left: 78px;
+}
+#jumbo a {
+	color: white;
+}
+
+#jumbo a:hover {
+	text-decoration: none;
+	color: #14E3BC; /*niceAqua*/
+}
+
+#rowjumbo {
+	width: 1125px;
+	margin: 0 auto;
+	padding-top: 30px;
+	padding-bottom: 100px;
+}
+
+#name {
+	padding-top: 20px;
+	padding-bottom: -20px;
+	margin-bottom: -20px;
+}
+
+#jumbo h4 {
+	padding-top: 30px;
+	color: #292f33; /*black*/
+	padding-right: 79px;
+	padding-left: 79px;
+	padding-bottom: 100px;
+}
+
+#top {
+	padding-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.portfolio {
+	background-color: #04A9B8;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+.portfolio h1 {
+	padding-top: 50px;
+	margin-top: 0;
+	text-align: center;
+	color: white;
+}
+
+#navbar {
+  background-color: rgba(0,0,0,0.05);
+  position: fixed;
+  top: -50px;
+  width: 100%;
+  display:block;
+  transition: top 0.3s;
+}
+
+#navbar a {
+  float: right;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: #14E3BC;
+  color: #02709D;
+}
+
+#porli {
+text-align: center;
+padding-bottom: 50px;
+}
+
+#porli ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#porli h2 {
+	color: white;
+}
+
+#porli li {
+	color: #292f33;
+	margin-bottom: 8px;
+}
+
+
+#seapic img {
+	height: 60%;
+	width: 80%;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+#porimage {
+	background-color: 
+}
+
+#porimage a h1:hover {
+	color: #55acee;
+	text-decoration: none;
+}
+
+
+#porimage a:hover{
+	text-decoration: none;
+	text-shadow: 2px 2px #292f33;
+}
+
+.portfolio hr {
+	border-color: #292f33;
+}
+
+.portfolio h1 {
+	padding-bottom: 40px;
+}
+
+
+
+
+.img-responsive {
+	margin: auto;
+}
+
+
+
+
+.about {
+	background-color: #14E3BC;
+
+}
+
+.about h1 {
+	padding-top: 50px;
+	padding-bottom: 20px;
+	margin-top: 0;
+	text-align: center;
+	color: white;	
+}
+
+
+#par {
+	text-align: justify;
+	font-size: 16px;
+	line-height: 30px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#white {
+	color: #02709D;
+}
+
+#abtpic img {
+	height: 250px;
+	width: auto;
+	opacity: 0.5;
+}
+
+#abtdeets{
+	padding-top: 50px;
+	padding-bottom: 100px;
+
+}
+
+#abtdeets h1,p {
+	font-family: 'Shadows Into Light Two', cursive;
+	color: #292f33;
+}
+
+
+#abtdeets p{
+	text-align: center;
+	padding-top: -2%;
+	margin-top: -2%;
+}
+
+#abtdeets h1 {
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#footer {
+	text-align: center;
+	color: white;
+	background-color: #292f33;
+	border-color: #292f33;
+	margin-bottom: 0;
+	bottom: 0;
+	font-size: 20px;
+	border-radius: 0;
+}
+
+#footer a {
+	text-decoration: none;
+	color: #14E3BC;
+}
+
+#footer a:hover {
+	background-color: #14E3BC;
+	color: white;
+	text-decoration: none;
+}
+.panel-footer {
+	background-color: #292f33;
+	border-color: #292f33;
+	color: #14E3BC;
+	word-spacing: 30px;
+	padding-bottom: 20px;
+	border-radius: 0;
+}
+
+
+#footie a:hover {
+	background-color: #292f33;
+	color: white;
+}
+
+
+
+/*fontresponsiive*/
+
+    
+
+/* xs < 768 */
+@media screen and (max-width: 767px) {
+    body {
+        font-size: 0.9em;
+    }
+}
+
+/* sm */
+@media screen and (min-width: 768px) {
+    body {
+        font-size: 1em;
+    }
+}
+
+/* md */
+@media screen and (min-width: 992px) {
+    body {
+        font-size: 1.2em;
+    }
+}
+
+/* lg */
+@media screen and (min-width: 1200px) {
+    body {
+        font-size: 1.3em;
+    }
+}
+
+
+
+
