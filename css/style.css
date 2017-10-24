@@ -21,7 +21,7 @@
 
 #jumbo {
 	background-color: #02709D; /*mainblue*/
-	border: 5px solid white;
+	border: 0.5em solid white;
 	border-color: white;
 
 
@@ -43,7 +43,7 @@
 }
 
 #rowjumbo {
-	width: 100%;
+	width: 88%;
 	margin: 0 auto;
 	padding-top: 100px;
 	padding-bottom: 100px;
@@ -153,9 +153,6 @@ padding-bottom: 50px;
 	padding-top: 20px;
 }
 
-#porimage {
-	background-color: 
-}
 
 #porimage a h1:hover {
 	color: #55acee;
@@ -215,6 +212,7 @@ padding-bottom: 50px;
 	height: 250px;
 	width: auto;
 	opacity: 0.5;
+	border-radius: 100px;
 }
 
 #abtdeets{
@@ -297,6 +295,46 @@ padding-bottom: 50px;
 @media screen and (max-width: 767px) {
     body {
         font-size: 0.9em;
+          		box-sizing: border-box;
+    }
+    #rowjumbo {
+    	margin: 0;
+    /*	padding: 0;*/
+    	box-sizing: border-box;
+    	width: 100%;
+    	text-align: center;
+    	padding-top: 30px;
+    }
+    #jumbo {
+    	border: 5px solid white;
+    	margin: 0 auto;
+    	padding: 0;
+/*    	width: 80%;*/
+    		box-sizing: border-box;
+    }
+    #jumbo h1 {
+    	font-size:2.75em;
+    	padding-right: 0;
+    	padding-left: 0;
+    	text-align: center;
+    }
+    #jumbo h4{
+    	font-size: 1.75em;
+    	padding-left: 0;
+    	padding-right: 0;
+    	text-align: center;
+    }
+    li{
+    	font-size: 1.25em;
+    }
+    #par {
+    	font-size: 2em;
+    }
+    p{
+    	font-size: 2em;
+    }
+    #abtpic {
+    	margin-top: 30px;
     }
 }
 
