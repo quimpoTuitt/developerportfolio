@@ -27,6 +27,8 @@
 <body>
 
 
+
+
 <div class="jumbotron" id="top">
 	<div class="row" id="rowjumbo">
 		<div class="jumbotron col-md-12 col-lg-12 col-xs-12" id="jumbo">
@@ -59,6 +61,14 @@
 	<br>
 	<h1><strong>Portfolio: <em>I have no genre.</em></strong></h1>
 
+<div class="container-fuid">
+<!-- 	<h1>
+  <a href="" class="typewrite" data-period="2000" data-type='[ "Portfolio?", " <em> I have no genre. </em>", "I love using Bootsrap.", "I Love to Develop." ]'>
+    <span class="wrap"></span>
+  </a>
+</h1>
+ -->
+</div>
 	
 
 	<div class="container" id="sb">
@@ -153,7 +163,7 @@
 	<div class="row">
 		<div class="col-md-8 col-md-offset-2">
 			
-			<p id="par">When it comes to coding, <em>I have no genre</em>. My strengths lie in both my <strong id="white">brand building and website designing skills.</strong> I am also well versed in <strong id="white">website creation and management.</strong> I specialize in using the <strong id="white">Bootstrap</strong> and <strong id="white">Materialize</strong> as frameworks in building websites. Iam also an expert when it comes to using <strong id="white">Adobe Creative Suite programs like Adobe Photoshop, Adobe Illustrator, Microsoft Office, Apple Keynote and Pages.</strong></p>
+			<p id="par">When it comes to coding, <em>I have no genre</em>. My strengths lie in both my <strong id="white">brand building and website designing skills.</strong> I am also well versed in <strong id="white">website creation and management by using Javascript and PHP.</strong> I specialize in using <strong id="white">Bootstrap, Materialize</strong> and <strong id="white">Laravel</strong> as frameworks in building websites. I am also an expert when it comes to using <strong id="white">Adobe Creative Suite programs like Adobe Photoshop, Adobe Illustrator, Microsoft Office, Apple Keynote and Pages.</strong></p>
 		</div> <!-- endcol -->
 	</div> <!-- endrow -->
 
@@ -207,7 +217,64 @@
 
 
 
+<script type="text/javascript">
+	var TxtType = function(el, toRotate, period) {
+        this.toRotate = toRotate;
+        this.el = el;
+        this.loopNum = 0;
+        this.period = parseInt(period, 10) || 2000;
+        this.txt = '';
+        this.tick();
+        this.isDeleting = false;
+    };
 
+    TxtType.prototype.tick = function() {
+        var i = this.loopNum % this.toRotate.length;
+        var fullTxt = this.toRotate[i];
+
+        if (this.isDeleting) {
+        this.txt = fullTxt.substring(0, this.txt.length - 1);
+        } else {
+        this.txt = fullTxt.substring(0, this.txt.length + 1);
+        }
+
+        this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
+
+        var that = this;
+        var delta = 200 - Math.random() * 100;
+
+        if (this.isDeleting) { delta /= 2; }
+
+        if (!this.isDeleting && this.txt === fullTxt) {
+        delta = this.period;
+        this.isDeleting = true;
+        } else if (this.isDeleting && this.txt === '') {
+        this.isDeleting = false;
+        this.loopNum++;
+        delta = 500;
+        }
+
+        setTimeout(function() {
+        that.tick();
+        }, delta);
+    };
+
+    window.onload = function() {
+        var elements = document.getElementsByClassName('typewrite');
+        for (var i=0; i<elements.length; i++) {
+            var toRotate = elements[i].getAttribute('data-type');
+            var period = elements[i].getAttribute('data-period');
+            if (toRotate) {
+              new TxtType(elements[i], JSON.parse(toRotate), period);
+            }
+        }
+        // INJECT CSS
+        var css = document.createElement("style");
+        css.type = "text/css";
+        css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
+        document.body.appendChild(css);
+    };
+</script>
 
 
 
