@@ -3,6 +3,7 @@
 	margin: 0;
 	box-sizing: border-box;
 	font-family: 'Montserrat', sans-serif;
+	
 }
 
 
@@ -74,28 +75,12 @@
 
 
 
-
-
-
-
-body {
-  background-color:#ce3635;
-  text-align: center;
-
-}
-
-* {   text-decoration: none;}
-
-
-
-
-
-
+/*#04A9B8*/
 
 
 
 .portfolio {
-	background-color: #04A9B8;
+	background-color: #f2f2f2;
 	padding-bottom: 0;
 	margin-bottom: 0;
 }
@@ -104,7 +89,7 @@ body {
 	padding-top: 50px;
 	margin-top: 0;
 	text-align: center;
-	color: white;
+	color: #292f33;
 }
 
 #navbar {
@@ -143,7 +128,7 @@ padding-bottom: 50px;
 }
 
 #porli h2 {
-	color: white;
+	color: #292f33;
 }
 
 #porli li {
@@ -161,7 +146,7 @@ padding-bottom: 50px;
 
 
 #porimage a h1:hover {
-	color: #55acee;
+	color: #14E3BC;
 	text-decoration: none;
 }
 
@@ -172,7 +157,7 @@ padding-bottom: 50px;
 }
 
 .portfolio hr {
-	border-color: #292f33;
+	border-color: #888;
 }
 
 .portfolio h1 {
@@ -190,7 +175,7 @@ padding-bottom: 50px;
 
 
 .about {
-	background-color: #f5f5f5;
+	background: linear-gradient(45deg, #0B4182 1%, #1e88e5 64%, #40BAF5 97%);
 
 }
 
@@ -199,7 +184,7 @@ padding-bottom: 50px;
 	padding-bottom: 20px;
 	margin-top: 0;
 	text-align: center;
-	color: #02709D;	
+	color: white;	
 }
 
 
@@ -211,7 +196,7 @@ padding-bottom: 50px;
 }
 
 #white {
-	color: #02709D;
+	color: #f5f5f5;
 }
 
 #abtpic img {
@@ -227,9 +212,9 @@ padding-bottom: 50px;
 
 }
 
-#abtdeets h1,p {
+#abtdeets h1,h6 {
 	font-family: 'Shadows Into Light Two', cursive;
-	color: #292f33;
+	color: #f2f2f2;
 }
 
 
@@ -246,7 +231,10 @@ padding-bottom: 50px;
 
 
 
-
+.typewrite {
+	color: #f5f5f5;	
+	font-family: 'Shadows Into Light Two', cursive;
+}
 
 
 
