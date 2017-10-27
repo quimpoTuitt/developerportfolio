@@ -8,7 +8,8 @@
 <link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
 <link rel="stylesheet" type="text/css" href="./css/bootstrap-theme.css">
 <link rel="stylesheet" type="text/css" href="./css/style.css">
-<link rel="stylesheet" href="css/animate.css">
+<link rel="stylesheet" href="./css/animate.css">
+
 
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -18,6 +19,7 @@
 <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Kalam" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway" rel="stylesheet">
 
 	<title></title>
 
@@ -52,21 +54,21 @@
 
 
 <div id="navbar">
-  <a href="index.html#top"><i class="fa fa-home" aria-hidden="true"></i><strong> HOME</strong></a>
+  <a href="index.html#top"><i class="fa fa-home" aria-hidden="true"></i><strong> Home</strong></a>
   <a href="mailto:quimpo.charles@gmail.com"
-			title="myemail" id="em"><i class="fa fa-envelope" aria-hidden="true"> <strong> EMAIL</strong></i></a>
+			title="myemail" id="em"><i class="fa fa-envelope" aria-hidden="true"> <strong> Email </strong></i></a>
 </div>
-
+<div class="wow">
 <div class="portfolio" id="portyy">
 	<br>
-	<h1><strong>Portfolio: <em>I have no genre.</em></strong></h1>
+	<h1 class="wow fadeInUp"><strong>Portfolio: <em>I have no genre.</em></strong></h1>
 	
 
 	<div class="container" id="sb">
-<hr>
-		<div class="row" id="porimage">
+ <hr>
+		<div class="row wow fadeInLeft" data-wow-duration="2.5s" id="porimage">
 			<div class="col-md-8">
-				<a href="https://quimpotuitt.github.io/qcapuno/index.html"><h1>Sea Breeze Beach House Website</h1></a>
+				<a href="https://quimpotuitt.github.io/qcapuno/index.html"><h1><strong>Sea Breeze Beach House Website</strong></h1></a>
 
 			</div>
 
@@ -76,36 +78,36 @@
 			
 		</div> <!-- endporimage -->
 
-<!-- <hr> -->
+ <!-- <hr> -->
 	
 	<div class="container" id="sb">
-<hr>
-		<div class="row" id="porimage">
+ <hr>
+		<div class="row wow fadeInRight" data-wow-duration="2.5s" id="porimage">
 
 			<div class="col-md-4" id="seapic">
 				<a href="https://fooderyph.000webhostapp.com/index.php"><img class="img-responsive" src="food.png"></a>
 			</div>
 			
 			<div class="col-md-8">
-				<a href="https://fooderyph.000webhostapp.com/index.php"><h1>Foodery Ph Website</h1></a>
+				<a href="https://fooderyph.000webhostapp.com/index.php"><h1><strong>Foodery Ph Website</strong></h1></a>
 			</div>
 
 		</div> <!-- endporimage -->
 
-<hr>
+ <hr>
 
 
-	<div class="row" id="porli">
+	<div class="row wow fadeInUp" id="porli">
 		<div class="col-md-4">
 			<h2><strong>Core Skillset</strong></h2>
 			<ul>
-				<li>HTML5</li>
-				<li>CSS3</li>
-				<li>Javascript</li>
-				<li>JQuery</li>
-				<li>PHP</li>
-				<li>mySQL</li>
-				<li>Xcode</li>
+				<li><strong>HTML5</strong></li>
+				<li><strong>CSS3</strong></li>
+				<li><strong>Javascript</strong></li>
+				<li><strong>JQuery</strong></li>
+				<li><strong>PHP</strong></li>
+				<li><strong>mySQL</strong></li>
+				<li><strong>Xcode</strong></li>
 			</ul>
 			
 		</div> <!-- endcol4 -->
@@ -113,11 +115,11 @@
 		<div class="col-md-4">
 			<h2><strong>Frameworks</strong></h2>
 			<ul>
-				<li>Bootstrap</li>
-				<li>Materialize</li>
-				<li>Get Skeleton</li>
-				<li>Pure.Css</li>
-				<li>Laravel</li>
+				<li><strong>Bootstrap</strong></li>
+				<li><strong>Materialize</strong></li>
+				<li><strong>Get Skeleton</strong></li>
+				<li><strong>Pure.Css</strong></li>
+				<li><strong>Laravel</strong></li>
 			</ul>
 			
 		</div> <!-- endcol42 -->
@@ -127,12 +129,12 @@
 		<div class="col-md-4">
 			<h2><strong>Tools</strong></h2>
 			<ul>
-				<li>Github</li>
-				<li>Gitlab</li>
-				<li>Gitbash</li>
-				<li>Sublime Text</li>
-				<li>Adobe Photoshop</li>
-				<li>Adobe Illustrator</li>
+				<li><strong>Github</strong></li>
+				<li><strong>Gitlab</strong></li>
+				<li><strong>Gitbash</strong></li>
+				<li><strong>Sublime Text</strong></li>
+				<li><strong>Adobe Photoshop</strong></li>
+				<li><strong>Adobe Illustrator</strong></li>
 			</ul>
 			
 		</div> <!-- endcol43 -->
@@ -141,7 +143,7 @@
 
 	</div> <!-- endrow -->
 
-
+</div> <!-- wow -->
 </div> <!-- containerf -->
 </div> <!-- endportfolio -->
 
@@ -184,6 +186,8 @@
 
 
 </div> <!-- endabout -->
+
+
 
 
 
@@ -297,7 +301,10 @@ function scrollFunction() {
 
 
 
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+<script>
+	  new WOW().init();
+</script>
 
 
 

@@ -2,8 +2,8 @@
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
-	font-family: 'Montserrat', sans-serif;
-	
+	font-family: 'Open Sans', sans-serif;
+	/*font-family: 'Raleway', sans-serif;*/
 }
 
 
@@ -33,6 +33,7 @@
 	color: #353535;
 	padding-right: 78px;
 	padding-left: 78px;
+	font-family: 'Raleway', sans-serif;
 }
 #jumbo a {
 	color: #353535;
@@ -64,6 +65,7 @@
 	padding-right: 79px;
 	padding-left: 79px;
 	padding-bottom: 100px;
+	font-family: 'Open Sans', sans-serif;
 }
 
 #top {
@@ -78,7 +80,6 @@
 /*#04A9B8*/
 
 
-
 .portfolio {
 	background: linear-gradient(45deg, #ffffff 1%, #f5f5f5 64%, #ffffff 97%);
 	padding-bottom: 0;
@@ -90,25 +91,28 @@
 	margin-top: 0;
 	text-align: center;
 	color: #353535;
+	font-family: 'Raleway', 'Helvetica Neue', Helvetica, Helvetica, Arial, sans-serif;
 }
 
 #navbar {
-  background-color: rgba(0,0,0,0.05);
+  background-color: rgba(0,0,0,0.1);
   position: fixed;
   top: -50px;
   width: 100%;
   display:block;
   transition: top 0.3s;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Helvetica, Arial, sans-serif;
 }
 
 #navbar a {
   float: right;
   display: block;
-  color: rgba(189, 187, 176, 0.8);
+  color: rgba( 53,  53,  53, 0.8);
   text-align: center;
   padding: 15px;
   text-decoration: none;
   font-size: 17px;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Helvetica, Arial, sans-serif;
 }
 
 #navbar a:hover {
@@ -116,9 +120,19 @@
   color: #02709D;
 }
 
+
+.fadeInLeft {
+	-webkit-animation-delay: 1s;
+}
+
+.fadeInRight {
+	-webkit-animation-delay: 2s;
+}
+
 #porli {
 text-align: center;
 padding-bottom: 50px;
+-webkit-animation-delay: 3s;
 }
 
 #porli ul {
@@ -128,11 +142,12 @@ padding-bottom: 50px;
 }
 
 #porli h2 {
-	color: #353535;
+	color: rgba(189, 187, 176, 0.8);
+	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Helvetica, Arial, sans-serif;
 }
 
 #porli li {
-	color: rgba(189, 187, 176, 0.8);
+	color: #353535;
 	margin-bottom: 8px;
 }
 
@@ -173,7 +188,6 @@ padding-bottom: 50px;
 
 
 
-
 .about {
 	background: linear-gradient(45deg, #f2f2f2 1%, #f5f5f5 64%, #f2f2f2 97%);
 
@@ -185,6 +199,7 @@ padding-bottom: 50px;
 	margin-top: 0;
 	text-align: center;
 	color: #353535;
+
 }
 
 
@@ -192,7 +207,7 @@ padding-bottom: 50px;
 	text-align: justify;
 	font-size: 16px;
 	line-height: 30px;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Helvetica, Arial, sans-serif;
 }
 
 #white {
@@ -252,6 +267,7 @@ padding-bottom: 50px;
 	bottom: 0;
 	font-size: 20px;
 	border-radius: 0;
+	font-family: 'Raleway', 'Helvetica Neue', Helvetica, Helvetica, Arial, sans-serif;
 }
 
 #footer a {
@@ -300,7 +316,7 @@ padding-bottom: 50px;
     	padding-top: 30px;
     }
     #jumbo {
-    	border: 5px solid white;
+    	border: 5px solid #353535;
     	margin: 0 auto;
     	padding: 0;
 /*    	width: 80%;*/
