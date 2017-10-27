@@ -80,7 +80,7 @@
 
 
 .portfolio {
-	background-color: #f2f2f2;
+	background-color: #292f33;
 	padding-bottom: 0;
 	margin-bottom: 0;
 }
@@ -89,7 +89,7 @@
 	padding-top: 50px;
 	margin-top: 0;
 	text-align: center;
-	color: #292f33;
+	color: #14E3BC;
 }
 
 #navbar {
@@ -128,11 +128,11 @@ padding-bottom: 50px;
 }
 
 #porli h2 {
-	color: #292f33;
+	color: #14E3BC;
 }
 
 #porli li {
-	color: #292f33;
+	color: #f2f2f2;
 	margin-bottom: 8px;
 }
 
@@ -153,7 +153,7 @@ padding-bottom: 50px;
 
 #porimage a:hover{
 	text-decoration: none;
-	text-shadow: 2px 2px #292f33;
+	text-shadow: 2px 2px #f2f2f2;
 }
 
 .portfolio hr {
