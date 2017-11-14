@@ -7,6 +7,17 @@
 }
 
 
+#yellow {
+	background-color: yellow;
+	height: 200px;
+}
+
+#four {
+	background-color: white;
+	height: 200px;
+}
+
+
 #jumbo header {
 	text-align: right;
 	padding-top: 50px;
@@ -34,6 +45,7 @@
 	padding-right: 78px;
 	padding-left: 78px;
 	font-family: 'Raleway', sans-serif;
+	font-size: 6em;
 }
 #jumbo a {
 	color: #353535;
@@ -47,8 +59,8 @@
 #rowjumbo {
 	width: 88%;
 	margin: 0 auto;
-	padding-top: 100px;
-	padding-bottom: 100px;
+	/*padding-top: 100px;*/
+	/*padding-bottom: 100px;*/
 	padding-left: 40px;
 	padding-right: 40px;
 }
@@ -127,13 +139,13 @@
 }
 
 .fadeInRight {
-	-webkit-animation-delay: 2s;
+	-webkit-animation-delay: 1.5s;
 }
 
 #porli {
 text-align: center;
 padding-bottom: 50px;
--webkit-animation-delay: 3s;
+-webkit-animation-delay: 2s;
 }
 
 #porli ul {
@@ -218,7 +230,7 @@ padding-bottom: 50px;
 #abtpic img {
 	height: 250px;
 	width: auto;
-	opacity: 0.5;
+	opacity: 0.8;
 	border-radius: 100px;
 }
 
@@ -324,7 +336,7 @@ padding-bottom: 50px;
     		box-sizing: border-box;
     }
     #jumbo h1 {
-    	font-size:2.75em;
+    	font-size:2.5em;
     	padding-right: 0;
     	padding-left: 0;
     	text-align: center;
@@ -347,6 +359,7 @@ padding-bottom: 50px;
     #abtpic {
     	margin-top: 30px;
     }
+
 }
 
 /* sm */
