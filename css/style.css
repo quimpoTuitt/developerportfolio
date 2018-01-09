@@ -142,6 +142,10 @@
 	-webkit-animation-delay: 1.5s;
 }
 
+#sc {
+	-webkit-animation-delay: 2s;
+}
+
 #porli {
 text-align: center;
 padding-bottom: 50px;
