@@ -2,10 +2,36 @@
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
-	font-family: 'Open Sans', sans-serif;
-	/*font-family: 'Raleway', sans-serif;*/
+	font-family: 'Work Sans', sans-serif;
+
 }
 
+button {
+    font-size: 1.5rem;
+    font-weight: 200;
+	background: linear-gradient(45deg, #f2f2f2 1%, #f5f5f5 64%, #f2f2f2 97%);
+    border: 1px solid #333447;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    margin-top: 36px;
+    outline: none;
+    padding: 0.75em;
+}
+
+#par strong {
+	font-weight: 500;
+	font-size: 1.68rem;
+}
+
+button:hover {
+
+	border-color: #fe7880;
+}
+
+#em {
+	font-family: 'Work Sans', sans-serif;
+}
 
 #yellow {
 	background-color: yellow;
@@ -53,7 +79,7 @@
 
 #jumbo a:hover {
 	text-decoration: none;
-	color: #02709D;
+	color: #fe7880;
 }
 
 #rowjumbo {
@@ -77,11 +103,11 @@
 	padding-right: 79px;
 	padding-left: 79px;
 	padding-bottom: 100px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Work Sans', sans-serif;
 }
 
 #top {
-	padding-top: 100px;
+	padding-top: 80px;
 	padding-bottom: 100px;
 }
 
@@ -101,6 +127,15 @@
 .portfolio h1 {
 	padding-top: 50px;
 	margin-top: 0;
+	font-weight: 500;
+	text-align: center;
+	color: #353535;
+	font-family: 'Raleway', 'Helvetica Neue', Helvetica, Helvetica, Arial, sans-serif;
+}
+
+.portfolio h3 {
+	padding-top: 50px;
+	margin-top: 0;
 	text-align: center;
 	color: #353535;
 	font-family: 'Raleway', 'Helvetica Neue', Helvetica, Helvetica, Arial, sans-serif;
@@ -114,7 +149,7 @@
   width: 100%;
   display:block;
   transition: top 0.3s;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Helvetica, Arial, sans-serif;
+  font-family: 'Work Sans', 'Helvetica Neue', Helvetica, Helvetica, Arial, sans-serif;
 }
 
 #navbar a {
@@ -124,13 +159,13 @@
   text-align: center;
   padding: 15px;
   text-decoration: none;
-  font-size: 17px;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Helvetica, Arial, sans-serif;
+  font-size: 1.5em;
+  font-family: 'Work Sans', 'Helvetica Neue', Helvetica, Helvetica, Arial, sans-serif;
 }
 
 #navbar a:hover {
  background: linear-gradient(45deg, #ffffff 1%, #f5f5f5 64%, #ffffff 97%);
-  color: #02709D;
+  color: #fe7880;
 }
 
 
@@ -160,12 +195,13 @@ padding-bottom: 50px;
 
 #porli h2 {
 	color: rgba(189, 187, 176, 0.8);
-	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Helvetica, Arial, sans-serif;
+	font-family: 'Work Sans', 'Helvetica Neue', Helvetica, Helvetica, Arial, sans-serif;
 }
 
 #porli li {
 	color: #353535;
 	margin-bottom: 8px;
+	font-size: 1.5rem;
 }
 
 
@@ -177,8 +213,8 @@ padding-bottom: 50px;
 }
 
 
-#porimage a h1:hover {
-	color: #02709D;
+#porimage a h3:hover {
+	color: #fe7880;
 	text-decoration: none;
 }
 
@@ -192,8 +228,10 @@ padding-bottom: 50px;
 	border-color: #888;
 }
 
-.portfolio h1 {
+.portfolio h3 {
 	padding-bottom: 40px;
+	font-size: 2.5rem;
+	font-weight: 200;
 }
 
 
@@ -224,7 +262,8 @@ padding-bottom: 50px;
 	text-align: justify;
 	font-size: 16px;
 	line-height: 30px;
-	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Helvetica, Arial, sans-serif;
+	font-weight: 200;
+	font-family: 'Work Sans', 'Helvetica Neue', Helvetica, Helvetica, Arial, sans-serif;
 }
 
 #white {
@@ -293,8 +332,23 @@ padding-bottom: 50px;
 }
 
 #footer a:hover {
-	background-color: #02709D;
+	background-color: #fe7880;
 	color: white;
+	text-decoration: none;
+}
+
+.fa-gitlab:hover {
+	color: #fc6d26;
+	text-decoration: none;
+}
+
+.fa-github:hover {
+	color: #6cc644;
+	text-decoration: none;
+}
+
+.fa-facebook-official:hover {
+	color: #3b5998;
 	text-decoration: none;
 }
 .panel-footer {
@@ -309,7 +363,7 @@ padding-bottom: 50px;
 
 #footie a:hover {
 	background-color: #292f33;
-	color: white;
+	color: #fe7880;
 }
 
 
@@ -340,15 +394,16 @@ padding-bottom: 50px;
     		box-sizing: border-box;
     }
     #jumbo h1 {
-    	font-size:2.5em;
-    	padding-right: 0;
-    	padding-left: 0;
+    	font-size:2.3rem;
+    	font-weight: 600;
+    	padding-right: 1em;
+    	padding-left: 1em;
     	text-align: center;
     }
     #jumbo h4{
     	font-size: 1.75em;
-    	padding-left: 0;
-    	padding-right: 0;
+    	padding-left: 1.5em;
+    	padding-right: 1.5em;
     	text-align: center;
     }
     li{
